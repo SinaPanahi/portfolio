@@ -1,5 +1,8 @@
+import "./App.css";
+import CubeBackground from "./components/CubeBackground.jsx";
+
 function App() {
-    return <div></div>;
+    return <CubeBackground></CubeBackground>;
 }
 
 export default App;
