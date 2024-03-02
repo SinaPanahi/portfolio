@@ -1,0 +1,5 @@
+.twoColumnLayout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    pointer-events: all;
+}

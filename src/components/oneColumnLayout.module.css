@@ -1,0 +1,4 @@
+.oneColumnLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+}
