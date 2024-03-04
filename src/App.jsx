@@ -1,26 +1,26 @@
 import "./App.css";
 import CubeBackground from "./components/CubeBackground.jsx";
-import ThreeColumnLayout from "./components/ThreeColumnLayout.jsx";
-import TwoColumnLayout from "./components/TwoColumnLayout.jsx";
-import OneColumnLayout from "./components/OneColumnLayout.jsx";
+import LeftPanel from "./components/LeftPanel.jsx";
+import RightPanel from "./components/RightPanel.jsx";
 import Header from "./components/Header.jsx";
 import Navigation from "./components/Navigation.jsx";
 import About from "./components/About.jsx";
+import ExperienceCard from "./components/ExperienceCard.jsx";
+import ResumeLink from "./components/ResumeLink.jsx";
+import TurningBorder from "./components/TurningBorder.jsx";
+import DecorativeBorder from "./components/DecorativeBorder.jsx";
+import LavaBackground from "./components/LavaBackground.jsx";
 
 function App() {
     return (
-        <CubeBackground>
-            <ThreeColumnLayout>
-                <Header />
-                {/* <Navigation /> */}
-            </ThreeColumnLayout>
-            {/* <ThreeColumnLayout>
-                
-                <TwoColumnLayout>
-                    <About />
-                </TwoColumnLayout>
-            </ThreeColumnLayout> */}
-        </CubeBackground>
+        <>
+            <LeftPanel>
+                <TurningBorder>
+                    <Header />
+                </TurningBorder>
+            </LeftPanel>
+            <LavaBackground />
+        </>
     );
 }
 

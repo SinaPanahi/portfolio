@@ -1,17 +1,16 @@
 export default function Header() {
     return (
         // <header className={styles.header}>
-        <header className="mt-10 mx-10 p-10 leading-10 h-min bg-yellow-500">
+        <header className="p-10 leading-10 h-min text-slate-300">
             <h1 className="text-5xl">Sina Panahi</h1>
             <h4 className="text-xl font-bold">Web Developer</h4>
             <p className="mt-4 leading-5 font-medium">
-                I build pixel-perfect, engaging, and accessible digital
-                experiences.
+                Crafting Engaging and Accessible Digital Experiences
             </p>
             <div className="flex mt-5 justify-between pr-10">
-                <a href="">
+                <a href="mailto:s.panahi.m@gmail.com">
                     <svg
-                        className="w-8 h-9"
+                        className="w-8 h-9 stroke-slate-300 stroke-1 fill-transparent"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                     >
@@ -20,9 +19,9 @@ export default function Header() {
                     </svg>
                 </a>
 
-                <a href="">
+                <a href="https://github.com/SinaPanahi" target="_blank">
                     <svg
-                        className="w-9 h-9"
+                        className="w-9 h-9 stroke-slate-300 stroke-1 fill-transparent"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
                     >
@@ -33,9 +32,12 @@ export default function Header() {
                         ></path>
                     </svg>
                 </a>
-                <a href="">
+                <a
+                    href="https://www.linkedin.com/in/sina-panahimoradkandi-630a3283/"
+                    target="_blank"
+                >
                     <svg
-                        className="w-8 h-7"
+                        className="w-8 h-7 stroke-slate-300 stroke-1 fill-transparent"
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
                         height="24"

@@ -1,6 +1,6 @@
 export default function Navigation() {
     return (
-        <nav className="mt-10 mx-10 p-10 leading-10 bg-purple-500 col-start-1">
+        <nav className="mt-10 mx-10 p-10 leading-10 h-min text-xl  text-slate-400">
             <ul>
                 <li className="flex items-center hover:ml-2 w-full">
                     <svg

@@ -5,7 +5,6 @@
     min-height: 100vh;
     pointer-events: none;
     display: grid;
-    position: relative; /* Added position relative */
 }
 
 .circles {
