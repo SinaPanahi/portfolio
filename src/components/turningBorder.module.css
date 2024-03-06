@@ -27,7 +27,7 @@
 
 .turningBorder {
     margin-top: 4rem;
-    margin-left: 4rem;
+    margin-left: 8rem;
     border: 2px solid;
     border-image: conic-gradient(
             from var(--angle),
@@ -71,6 +71,6 @@
 
 @media (max-width: 1024px) {
     .turningBorder {
-        margin-right: 4rem;
+        margin: 1rem 1rem;
     }
 }

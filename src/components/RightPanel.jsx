@@ -1,6 +1,6 @@
 export default function RightPanel({ children }) {
     return (
-        <div className="sm:full sm:block lg:w-2/3 lg:relative left-1/3">
+        <div className="sm:full sm:block lg:w-3/5 lg:relative float-right">
             {children}
         </div>
     );

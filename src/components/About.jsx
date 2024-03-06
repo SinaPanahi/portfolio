@@ -1,31 +1,41 @@
 export default function About() {
     return (
-        <div className="mx-10 p-10 leading-10 h-min  bg-green-500 ">
-            <p className="font-medium leading-6 px-12">
-                In qui minim aute enim. Sit commodo in aliqua adipisicing
-                laboris magna ex fugiat magna laboris ea nostrud. Incididunt
-                velit laborum pariatur anim culpa. Velit duis proident dolore
-                dolore sint adipisicing mollit. Anim voluptate minim ullamco
-                exercitation. Labore proident magna veniam tempor qui. Ea
-                proident Lorem reprehenderit duis nulla labore voluptate laboris
-                qui dolor esse. Deserunt fugiat consequat culpa laborum ut.
+        <div
+            id="about"
+            className="mx-0 p-0 lg:pr-32 lg:pl-16 lg:py-16 leading-10 h-min text-slate-300 "
+        >
+            <p className="font-semibold leading-6 px-9 lg:px-12">
+                After completing my Master’s Degree in Applied Linguistics in
+                2015, I immigrated to Turkey, Istanbul and started my
+                professional journey as an elementary school teacher. Throughout
+                my teaching career, I encountered a recurring challenge: the
+                availability of teaching materials and worksheets. Often, the
+                school's aging, black and white printer would malfunction, or
+                there would be a backlog of teachers awaiting their turn to
+                print.
             </p>
 
-            <p className="my-5 font-medium leading-6 px-12">
-                Ad laborum aliqua reprehenderit excepteur adipisicing cillum
-                voluptate sit voluptate eiusmod anim excepteur. Esse dolor culpa
-                cupidatat velit laborum ad culpa. Nisi Lorem sunt nulla minim
-                veniam ad mollit. Nisi nisi in aliquip amet laborum irure
-                exercitation eu. Laboris culpa elit laboris Lorem consequat ut
-                aliquip qui nulla ex. Elit quis velit qui exercitation esse
-                voluptate irure consectetur Lorem in excepteur aliqua magna ea.
-                Officia irure voluptate duis voluptate esse cupidatat est nisi
-                quis consectetur culpa occaecat laboris nostrud.
+            <p className="my-5 font-semibold leading-6 px-9 lg:px-12">
+                One morning in 2017, I had a brilliant idea: transforming all my
+                teaching materials into interactive electronic versions. Eager
+                to explore the concept, I sought guidance from the coding
+                teacher at school, who provided me with a foundational
+                understanding of creating simple static HTML and CSS pages. Over
+                time, I delved deeper into web development, honing my skills
+                independently. By the end of my teaching career in 2021, I had
+                transitioned into a full-stack developer, albeit with limited
+                experience and a beginner's perspective.
             </p>
-            <p className="my-5 font-medium leading-6 px-12">
-                loremEt consectetur minim consequat occaecat esse veniam.
-                Incididunt irure ea qui do. Ex dolor proident minim aute
-                excepteur ipsum labore dolore amet minim cillum voluptate.
+            <p className="my-5 font-semibold leading-6 px-9 lg:px-12">
+                In 2022, my wife and I were granted permanent residency in
+                Canada and moved to Ottawa where we have decided to spend our
+                lives together for the foreseeable future. Initially, my plan
+                was to complete a brief college program to obtain my teaching
+                certificate and continue teaching in Canada. Yet, again, another
+                brilliant idea hit me: What if I embarked on a fresh journey in
+                a field I held in high regard, parallel to my passion for
+                teaching? Could I successfully navigate this transition? Could I
+                possibly succeed?
             </p>
         </div>
     );

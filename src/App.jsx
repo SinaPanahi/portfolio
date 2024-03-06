@@ -10,6 +10,7 @@ import ResumeLink from "./components/ResumeLink.jsx";
 import TurningBorder from "./components/TurningBorder.jsx";
 import DecorativeBorder from "./components/DecorativeBorder.jsx";
 import LavaBackground from "./components/LavaBackground.jsx";
+import ExperienceWrapper from "./components/ExperienceWrapper.jsx";
 
 function App() {
     return (
@@ -18,7 +19,12 @@ function App() {
                 <TurningBorder>
                     <Header />
                 </TurningBorder>
+                <Navigation />
             </LeftPanel>
+            <RightPanel>
+                <About />
+                <ExperienceWrapper></ExperienceWrapper>
+            </RightPanel>
             <LavaBackground />
         </>
     );
