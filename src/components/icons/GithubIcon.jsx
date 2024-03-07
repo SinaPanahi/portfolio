@@ -1,12 +1,8 @@
-export default function GithubIcon({ width, height }) {
+import React from "react";
+
+export default function GithubIcon(props) {
     return (
-        <svg
-            className=" stroke-slate-300 stroke-1 fill-transparent"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-            width={width}
-            height={height}
-        >
+        <svg {...props} viewBox="0 0 24 24" aria-hidden="true">
             <path
                 fillRule="evenodd"
                 clipRule="evenodd"

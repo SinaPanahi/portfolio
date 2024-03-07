@@ -13,17 +13,17 @@ export default function Header() {
             </p>
             <div className="flex mt-5 justify-between pr-10">
                 <a href="mailto:s.panahi.m@gmail.com">
-                    <EmailIcon width="2rem" height="2.25rem" />
+                    <EmailIcon className="w-8 h-9 stroke-slate-300 stroke-1 fill-transparent" />
                 </a>
 
                 <a href="https://github.com/SinaPanahi" target="_blank">
-                    <GithubIcon width="2.25rem" height="2.25rem" />
+                    <GithubIcon className="w-9 h-9 stroke-slate-300 stroke-1 fill-transparent" />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/sina-panahimoradkandi-630a3283/"
                     target="_blank"
                 >
-                    <LinkedinIcon width="1.75rem" height="2rem" />
+                    <LinkedinIcon className="w-8 h-8 stroke-slate-300 stroke-1 fill-transparent" />
                 </a>
             </div>
         </header>
