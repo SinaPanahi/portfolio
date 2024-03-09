@@ -42,9 +42,12 @@ export default function ExperienceCard({
                     <span className="font-light">{subtitle}</span>
                 </div>
                 <ul>
-                    {descriptions.map((description) => {
+                    {descriptions.map((description, index) => {
                         return (
-                            <li className="list-disc leading-6 font-normal text-sm">
+                            <li
+                                key={index}
+                                className="list-disc leading-6 font-normal text-sm"
+                            >
                                 {description}
                             </li>
                         );
@@ -52,8 +55,8 @@ export default function ExperienceCard({
                 </ul>
 
                 <div className="mt-5">
-                    {tags.map((tag) => {
-                        return <Tag tagText={tag} />;
+                    {tags.map((tag, index) => {
+                        return <Tag key={index} tagText={tag} />;
                     })}
                 </div>
             </div>

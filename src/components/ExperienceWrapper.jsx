@@ -13,12 +13,12 @@ export default function ExperienceWrapper() {
                     title: "Community Capacity Building Training Portal",
                     subtitle: "Government of Canada",
                     descriptions: [
-                        "Upgraded from MVC 3 to 4",
                         "Fixed bugs related to password reset, registration system, etc",
                         "Implemented an advertisement system to be used by third party agencies ",
                         "Added reporting features, participation report, bulletin board and discussion forum",
                         "Implemented an anonymous client survey system",
                     ],
+                    link: "https://www.homelessnessccbtraining.ca/",
                     tags: [
                         "C#",
                         ".NET",
@@ -90,8 +90,8 @@ export default function ExperienceWrapper() {
                         "API",
                     ],
                 },
-            ].map((experienceCard) => {
-                return <ExperienceCard {...experienceCard} />;
+            ].map((experienceCard, index) => {
+                return <ExperienceCard key={index} {...experienceCard} />;
             })}
         </div>
     );

@@ -1,8 +1,10 @@
 .decorativeBorder {
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 .decorativeBorder .separator {
-    width: 100vw;
+    width: 100%;
     height: 5px;
     animation: rotate 3s infinite linear;
     -webkit-animation: rotate 3s infinite linear;
