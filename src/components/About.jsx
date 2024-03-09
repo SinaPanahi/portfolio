@@ -9,33 +9,26 @@ export default function About() {
                 2015, I immigrated to Turkey, Istanbul and started my
                 professional journey as an elementary school teacher. Throughout
                 my teaching career, I encountered a recurring challenge: the
-                availability of teaching materials and worksheets. Often, the
-                school's aging, black and white printer would malfunction, or
-                there would be a backlog of teachers awaiting their turn to
-                print.
+                availability of teaching materials and worksheets.
             </p>
 
             <p className="my-5 text-md leading-6 px-9 lg:pl-36">
-                One morning in 2017, I had a brilliant idea: transforming all my
+                One day in 2017, I had a brilliant idea: transforming all my
                 teaching materials into interactive electronic versions. Eager
-                to explore the concept, I sought guidance from the coding
-                teacher at school, who provided me with a foundational
-                understanding of creating simple static HTML and CSS pages. Over
-                time, I delved deeper into web development, honing my skills
-                independently. By the end of my teaching career in 2021, I had
-                transitioned into a full-stack developer, albeit with limited
-                experience and a beginner's perspective.
+                to explore the concept, I sought guidance from a friend, who
+                provided me with a foundational understanding of creating simple
+                static HTML and CSS pages. Over time, I delved deeper into web
+                development, honing my skills independently. By the end of my
+                teaching career in 2021, I had transitioned into a full-stack
+                developer, albeit with limited experience and a beginner's
+                perspective.
             </p>
             <p className="my-5 text-md leading-6 px-9 lg:pl-36">
-                In 2022, my wife and I were granted permanent residency in
-                Canada and moved to Ottawa where we have decided to spend our
-                lives together for the foreseeable future. Initially, my plan
-                was to complete a brief college program to obtain my teaching
-                certificate and continue teaching in Canada. Yet, again, another
-                brilliant idea hit me: What if I embarked on a fresh journey in
-                a field I held in high regard, parallel to my passion for
-                teaching? Could I successfully navigate this transition? Could I
-                possibly succeed?
+                In 2022, my wife and I immigrated to Canada, Ottawa. This is
+                where I embarked on a fresh journey in the field of Web
+                Development and Internet Applications. So far, I have learned
+                many new skills and have completed numerous project. Here is a
+                glimpse...
             </p>
         </div>
     );
